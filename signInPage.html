@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TaskBuddy-Sign In</title>
+
+  <!--link for icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="signinstyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <div class="form">
+    <div class="left-panel">
+
+      <!--HEADER TO GUYS-->
+        <img src="Images/HORIZONTAL.png" id="logo" />
+
+      <!--SA RIGHT SIDE UNG ARROW SA LEFT IS SIGN IN AND MGA TEXT-->
+      <div class="sign-in">
+      <div class="header-row">
+      <h2>Sign in</h2>
+      <a href="index.html"><button class="back-arrow">←</button></a>
+      </div>
+
+  <p id="reg-link">If you don't have an account register<br />
+    You can <a href="registrationPage.html" id="reg-btn">Register here !</a>
+  </p>
+<br>
+        
+        <!--FORM-->
+        <form id="form-section">
+          <div class="email">
+            <label for="email" id="ee">Email</label><br />
+            <input type="email" id="email" placeholder="Enter your email address" required />
+          </div>
+          <br />
+
+          <div class="pass">
+            <label for="pword" id="pp">Password</label><br />
+            <input type="password" id="pword" placeholder="Enter your Password" required />
+          </div>
+          <br />
+
+          <div class="options">
+            <label> <input type="checkbox" /> Remember me </label>
+            <a href="#" id="forgot">Forgot Password?</a>
+          </div>
+          <br />
+
+          <div class="submit">
+          <button type="submit" id="submit">Login</button>
+          </div>
+        </form>
+
+        <!--ICONS PARA SA IBANG WAYS-->
+        <div class="login-icons">
+          <p>or continue with</p>
+          <div class="social-icons">
+            <span><i class='fa-brands fa-facebook' style='color: blue'></i></span>
+            <span><i class="fab fa-apple"></i></span>
+            <span><i class="fab fa-google"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-panel">
+        <img src="Images/HORIZONTAL.png" id="right-logo">
+    </div>
+  </div>
+
+</body>
+<script src="signIn.js"></script>
+</html>

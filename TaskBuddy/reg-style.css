@@ -1,0 +1,154 @@
+html{
+    /* dito yung background ha tangina */
+    font-family: "Poppins", sans-serif;
+}
+
+#email, #username{
+    color: #999999;
+}
+
+#email::placeholder, #pword::placeholder{
+      font-family: "Poppins", sans-serif;
+      color:#3D52A0;
+}
+
+.email, .pass{
+    padding-top: 30px;
+}
+
+#reg-btn{
+    text-decoration: none;
+    color: #3D52A0;
+    font-weight: 600;
+}
+
+#email, #username, #password, #confirmPassword{
+    border: none;
+    outline: none;
+    width: 500px;
+    height: 30px;
+    background: none;
+    border-bottom: 2px solid #333;
+}
+
+#logo{
+    width: 122px;
+    height: 32px;
+    padding-left: 5px;
+
+}
+
+#right-logo{
+    padding-top: 50px;
+    width: 500px;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* or flex-start, depending on your layout */
+  gap: 390px;
+  margin-left: 50px;
+}
+
+.back-arrow {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+  .form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #form-section{
+    margin-right: 2.2rem;
+    justify-content: center;
+    margin-left: 50px;
+  }
+  .left-panel {
+    flex: 3;
+    padding: 1rem;
+  }
+
+  .right-panel {
+    flex: 7;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .sign-in{
+     display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+  h2{
+      font-weight: 700;
+  }
+
+  #reg-link{
+      margin-left: 50px;
+      padding: 0;
+  }
+
+  .options{
+     display: flex;
+  justify-content: space-between; /* or 'flex-start' depending on layout */
+  align-items: center;
+  gap: 2rem;
+  }
+
+  #forgot{
+    color:#4D4D4D;
+    text-decoration: none;
+  }
+
+  #submit{
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    background-color: #7091E6;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  #submit:hover{
+     transform: scale(1.01);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .login-icons {
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+ .login-icons p{
+    color: #B5B5B5;
+  font-weight: 600;
+ }
+
+.social-icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* space between icons */
+}
+
+.social-icons i{
+    font-size: 30px;
+}
+
+.social-icons span {
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 5px;
+}

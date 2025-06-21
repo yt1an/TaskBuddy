@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" id="landing-page">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="Landing.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <title>LandingPage</title>
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div id="logo1">
+        <h3 class="open-sans-logo">TaskBuddy!</h3>
+      </div>
+      <nav id="navi">
+        <div><button class="nav-btn" onclick="document.getElementById('features').scrollIntoView({ behavior: 'smooth' });">Why Task Buddy?</button></div>
+        <div><a href="signInPage.html"><button class="login-btn">Log In →</button></a></div>
+      </nav>
+    </div>
+  </header>
+  <div id="cta">
+
+    <div class="header">
+      <img src="Images/HORIZONTAL.png" alt="Logo" id="taskbuddy-logo" style="width: 400px;"/>
+      <p id="description">Your friendly and efficient task manager designed for students and teachers!</p>
+      <a href="registrationPage.html"><button class="primary-btn">Register Now!</button></a>
+    </div>
+    
+    <div>
+      <img src="images/writer.svg" style="margin-left: auto; width: 600px;">
+    </div>
+
+    <div class="gradient"></div>
+
+  </div>
+
+
+  <section class="goal">
+    <div class="goal-container">
+      <h2>Our Goal</h2>
+      <p class="goal-subheading">This is what we’ve been aiming for from the start!</p>
+      <p class="goal-description" id="features">
+        TaskBuddy’s mission is to empower students and learners with a simple, intuitive, and collaborative task
+        management platform.
+        We strive to enhance productivity, organization, and efficiency in academic environments, making learning and
+        teaching more seamless and stress-free.
+      </p>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container-feature">
+      <h2>Why You Should Choose TaskBuddy?</h2>
+      <div class="features-grid">
+        <div class="feature1">
+          <h3>Built for Students,<br>Not Just Task Lists</h3>
+          <p id="para1">Unlike generic to-do apps, TaskBuddy is designed specifically for academic life-organizing
+            assignments, group projects, deadlines, and even study plans.</p>
+        </div>
+        <div class="feature2">
+          <h3>Smart Task<br>Management</h3>
+          <p id="para2">Automatically sort your task by subject, due date, or priority. never miss another deadline with
+            intelligent reminders and progress tracking.</p>
+        </div>
+        <div class="feature3">
+          <h3>Light, Fast, and<br>Distraction-Free</h3>
+          <p id="para3">No clutter, no ads– just what you need to get things done.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="closing">
+    <div class="container-closing">
+      <div class="closing-line">
+        <h1>Homework handled. Projects planned. Goals crushed.</h1>
+      </div>
+      <div class="closing-para">
+        <p>TaskBuddy is your personal school productivity partner-designed to help students stay on top of assignments,
+          projects, and deadlines with smart planning tools, friendly reminders and a stress-free interface that makes
+          organizing school life simple and motivating.</p>
+      </div>
+      <div class="second-button-container"><button class="second-button">Contact us</button></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="Images/HORIZONTAL.png" alt="Logo" id="footer-logo" />
+      </div>
+      <div class="footer-para">
+        <p>© 2025 TaskBuddy. All Rights Reserved.</p>
+      </div>
+      <div class="icons">
+            <button class="Facebook"><i class="fa-brands fa-facebook-f"></i></button>
+            <button class="Linkedin"><i class="fa-brands fa-linkedin-in"></i></button>
+            <button class="Twitter"><i class="fa-brands fa-twitter"></i></button>
+            </div>
+      
+    </div>
+  </footer>
+
+</body>
+
+</html>
